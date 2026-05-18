@@ -1,5 +1,6 @@
 // ambil input tugas
 const inputTugas = document.getElementById("inputTugas");
+// add const tanggal
 const inputTanggal = document.getElementById("inputTanggal");
 const btnTambah = document.getElementById("btnTambah");
 const daftarTugas = document.getElementById("daftarTugas");
