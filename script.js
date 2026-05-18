@@ -29,7 +29,7 @@ btnTambah.addEventListener("click", function () {
     let aksi = document.createElement("div");
     aksi.classList.add("aksi");
 
-    // tombol EDIT
+    // add tombol EDIT
     let btnEdit = document.createElement("button");
     btnEdit.innerHTML = "Edit";
     btnEdit.addEventListener("click", function () {
