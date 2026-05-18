@@ -21,6 +21,7 @@ btnTambah.addEventListener("click", function () {
     let spanTugas = document.createElement("span");
     spanTugas.innerHTML = teksTugas;
 
+    //membuat tanggal tugas
     let spanTanggal = document.createElement("span");
     spanTanggal.classList.add("tanggal");
     spanTanggal.innerHTML = tanggal ? ` (${tanggal})` : "";
