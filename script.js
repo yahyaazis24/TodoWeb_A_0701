@@ -77,7 +77,7 @@ btnTambah.addEventListener("click", function () {
 
     daftarTugas.appendChild(listBaru);
 
-    updateWarna(); // update warna setelah tambah
+    updateWarna(); // update warna setelah menambahkan data
 
     inputTugas.value = "";
     inputTanggal.value = "";
