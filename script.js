@@ -56,7 +56,7 @@ btnTambah.addEventListener("click", function () {
         }
     });
 
-    // tombol HAPUS
+    // add tombol HAPUS
     let btnHapus = document.createElement("button");
     btnHapus.innerHTML = "Hapus";
     btnHapus.classList.add("hapus");
