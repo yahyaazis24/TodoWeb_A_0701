@@ -48,6 +48,7 @@ btnTambah.addEventListener("click", function () {
     btnStatus.innerHTML = "Progress";
     spanTugas.classList.add("progress");
 
+    //mengubah status tugas
     btnStatus.addEventListener("click", function () {
         if (btnStatus.innerHTML === "Progress") {
             btnStatus.innerHTML = "Done";
