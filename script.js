@@ -81,7 +81,7 @@ btnTambah.addEventListener("click", function () {
     inputTanggal.value = "";
 });
 
-// warna teks
+// ubah warna teks
 function updateWarna() {
     const semuaList = document.querySelectorAll("#daftarTugas li");
 
