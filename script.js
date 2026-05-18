@@ -39,7 +39,7 @@ btnTambah.addEventListener("click", function () {
         }
     });
 
-    // tombol STATUS
+    // add tombol STATUS
     let btnStatus = document.createElement("button");
     btnStatus.innerHTML = "Progress";
     spanTugas.classList.add("progress");
