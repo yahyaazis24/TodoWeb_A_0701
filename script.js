@@ -9,6 +9,7 @@ btnTambah.addEventListener("click", function () {
 
     let teksTugas = inputTugas.value;
     let tanggal = inputTanggal.value;
+    
 
     if (teksTugas === "") {
         alert("Data harus ditambahkan");
